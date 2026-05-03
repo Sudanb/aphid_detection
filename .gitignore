@@ -1,0 +1,53 @@
+# Virtual environment
+venv_rtdetr/
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyd
+*.pyo
+*$py.class
+
+# Model weights & large binaries
+*.pth
+*.pdparams
+*.onnx
+*.onnx.data
+*.pb
+*.pt
+*.bin
+*.mat
+
+# Dataset / training images
+aphids_ivan/train/
+aphids_ivan/train_resized/
+
+# Build / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+*.so
+*.a
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs & outputs
+*.log
+output/
+**/output/
